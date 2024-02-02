@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+@media (min-width:601px) {
+
+  /* header */
+
+  .hed-pc {
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    padding-top: 64px;
+  }
+
+  .hed-pc h1 {
+    font-weight: normal;
+  }
+
+  .hed {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  /* main */
+
+  main img {
+    display: block;
+    margin-top: 96px;
+  }
+
+  /* about */
+
+  .about h2 {
+    text-align: center;
+    padding-top: 64px;
+  }
+
+  .sec-1 {
+    max-width: 960px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .sec-1 h3 {
+    font-weight: normal;
+    margin-top: 64px;
+  }
+
+  .sec-1 p {
+    margin: 0;
+  }
+
+  .sec-1 br {
+    display: none;
+  }
+
+  .sec-2 {
+    max-width: 960px;
+    display: block;
+    margin: 32px auto 0;
+  }
+
+  /* works */
+
+  .works h2 {
+    text-align: center;
+    padding-top: 96px;
+  }
+
+  .sec-img {
+    margin-top: 64px;
+  }
+
+  .sec-img ul {
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .sec-img img {
+    width: 300px;
+  }
+
+  .sec-img ul li {
+    list-style: none;
+  }
+
+  /* news */
+
+  .news h2 {
+    text-align: center;
+    padding-top: 96px;
+  }
+
+  .news-item {
+    max-width: 960px;
+    margin: 80px auto 0;
+  }
+
+  .text-1 {
+    display: flex;
+    gap: 96px;
+  }
+
+  /* contact */
+
+  .contact h2 {
+    text-align: center;
+    padding: 96px 0 72px 0;
+  }
+
+
+  .mess {
+    max-width: 960px;
+    display: flex;
+
+    margin: 32px auto;
+  }
+
+  .mess p {
+    padding-right: 80px;
+    margin-top:0;
+  }
+
+  .mess input {
+    width: 824px;
+  }
+
+  .tarea {
+    max-width: 960px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .tarea textarea {
+    width: 824px;
+    height: 344px;
+  }
+
+  .tarea p {
+    padding-right: 48px;
+    margin-top:0;
+  }
+
+  /* button */
+  button {
+    display: block;
+    margin: 32px auto;
+    background: black;
+    color:white;
+    width: 270px;
+    height: 64px;
+    font-size:16px;
+  }
+}
